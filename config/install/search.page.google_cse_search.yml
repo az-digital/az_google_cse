@@ -3,9 +3,6 @@ status: true
 dependencies:
   module:
     - google_cse
-  enforced:
-    module:
-      - az_google_cse
 id: google_cse_search
 label: 'Google CSE Search'
 path: google
