@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - az_google_cse
     - google_cse
   enforced:
     module:
