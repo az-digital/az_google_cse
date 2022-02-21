@@ -2,7 +2,11 @@ langcode: en
 status: true
 dependencies:
   module:
+    - az_google_cse
     - google_cse
+  enforced:
+    module:
+      - az_google_cse
 id: google_cse_search
 label: 'Google CSE Search'
 path: google
