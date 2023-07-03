@@ -1,7 +1,7 @@
 name: 'AZ Google CSE'
 description: 'Adds common configuration for Google Custom Search Engine.'
 type: module
-core_version_requirement: '^9'
+core_version_requirement: ^9 || ^10
 package: Arizona Digital
 dependencies:
   - drupal:google_cse
