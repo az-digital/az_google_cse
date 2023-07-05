@@ -4,8 +4,8 @@
     "type": "drupal-custom-module",
     "require": {
         "cweagans/composer-patches": "^1.7",
-        "drupal/core": "^9",
-        "drupal/google_cse": "3.4.0"
+        "drupal/core": "^9 || ^10",
+        "drupal/google_cse": "3.8"
     },
     "extra": {
         "patches": {
@@ -14,5 +14,4 @@
             }
         }
     }
-  }
-  
+}
