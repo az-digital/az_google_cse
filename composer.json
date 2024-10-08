@@ -4,13 +4,13 @@
     "type": "drupal-custom-module",
     "require": {
         "cweagans/composer-patches": "^1.7",
-        "drupal/core": "^9 || ^10",
-        "drupal/google_cse": "3.8"
+        "drupal/core": "^10 || ^11",
+        "drupal/google_cse": "5.0.0"
     },
     "extra": {
         "patches": {
             "drupal/google_cse": {
-                "Disable watermark": "https://gist.githubusercontent.com/joeparsons/201d0c98e4b62feff7cd62aaac1bd77a/raw/1d7b76ec1f849ea05bd46019f480e5a6844539a8/google_cse-disable-watermark.patch"
+                "Disable watermark": "https://gist.githubusercontent.com/trackleft/095d23bb5591fd03689bf97dd552b0f6/raw/8a14d2792223debf2a0e7fe07acdc4616867f438/add-back-styles.patch"
             }
         }
     }
