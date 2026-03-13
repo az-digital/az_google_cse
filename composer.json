@@ -1,17 +1,9 @@
 {
     "name": "az-digital/az_google_cse",
-    "description": "Adds Google Custom Search engine patches and default config.",
+    "description": "Adds Google Custom Search engine default config.",
     "type": "drupal-custom-module",
     "require": {
-        "cweagans/composer-patches": "^1.7",
         "drupal/core": "^10 || ^11",
         "drupal/google_cse": "5.0.3"
-    },
-    "extra": {
-        "patches": {
-            "drupal/google_cse": {
-                "Disable watermark": "https://gist.githubusercontent.com/trackleft/095d23bb5591fd03689bf97dd552b0f6/raw/8a14d2792223debf2a0e7fe07acdc4616867f438/add-back-styles.patch"
-            }
-        }
     }
 }
