@@ -10,7 +10,8 @@
     "extra": {
         "patches": {
             "drupal/google_cse": {
-                "Disable watermark": "https://gist.githubusercontent.com/trackleft/9e340c85cc12fb8582ca3e3afd31dc03/raw/aa99f1b80faf9587921fe649fb99f49bbd4937a3/google_cse-no_watermark_changes.patch"
+                "Disable watermark": "https://gist.githubusercontent.com/trackleft/9e340c85cc12fb8582ca3e3afd31dc03/raw/aa99f1b80faf9587921fe649fb99f49bbd4937a3/google_cse-no_watermark_changes.patch",
+                "Omit js/google_cse.js to prevent white search input background": "https://gist.githubusercontent.com/joeparsons/afd6cf9338f868a82ae69255abd6afd1/raw/6c9ddcbccf700915a8585b4782f101f4b9cdfdac/omit-watermark-js.patch"
             }
         }
     }
